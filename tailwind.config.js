@@ -7,7 +7,7 @@ module.exports = {
         //prettier-ignore
         'widescreen': { raw: "(min-aspect-ratio: 3/2)" },
         //prettier-ignore
-        'tallscreen': { raw: "(min-aspect-ratio: 13/20)" },
+        'tallscreen': { raw: "(max-aspect-ratio: 13/20)" },
       },
       keyframes: {
         "open-menu": {
